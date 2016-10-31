@@ -15,41 +15,44 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
- - Gradle
- - Java
- - JPA
- - SQL
- - REST
+ - Project Management
  - Tech Architecture
+ - C/C++
+ - OOP/OOD
+ - UML
+ - Java
+ - GIT, SVN
+ - SQL
+ - Maven
+ - MS Visual Studio
+ 
 
 #Work experience is required
 roles:
- - title: Senior Engineer
-   start: 2016
+ - title: Project Manager
+   start: 2011
    end: Ongoing
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
-   end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
-   employer: Accenture
-   description: A range of functional and technical roles, primarily working on client sites in Financial Services.
+   employer: JSC "NIPK "Electron"
+   description: .
+ - title: Head of Sensor Development 
+   start: 2009
+   end: 2011
+   employer: Giesecke and Deverient AG
+   description: 
+ - title: Senior Software Engineer
+   start: 2008
+   end: 2009
+   employer: 
+   description: 
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+ - level: Master of Science (M.Sc. EE)
+   date: 1998
+   subject: TV and Video Engineering
+   school: Saint Petersburg State Electrotechnical University "LETI"
 
 #List of interesting Github repo/projects to include - optional
 github:
  - ivli/roim
+ 
