@@ -11,7 +11,7 @@ primarylinks:
  - title: GitHub
    url: https://github.com/ivli
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/igorlikhachev
+   url: https://www.linkedin.com/in/igorlikhachev
 
 #Any buzzword skills you want to include
 skills:
@@ -53,6 +53,3 @@ education:
 #List of interesting Github repo/projects to include - optional
 github:
  - ivli/roim
-
-
-
