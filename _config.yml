@@ -16,7 +16,7 @@ primarylinks:
 #Any buzzword skills you want to include
 skills:
  - Project Management
- - Tech Architecture
+ - Architecture Desigh
  - C/C++
  - OOP/OOD
  - UML
@@ -27,6 +27,8 @@ skills:
  - Maven
  - MS Visual Studio
  - DICOM
+ - Image Processing
+ - DSP
 
 #Work experience is required
 roles:
@@ -43,8 +45,14 @@ roles:
  - title: Senior Software Engineer
    start: 2008
    end: 2009
+   employer: <a href="http://www.stc.spb.ru">STC Ltd </a>
+   description: 
+- title: Senior Software Engineer
+   start: 2008
+   end: 2009
    employer: 
    description: 
+
 
 #Education is required
 education:
