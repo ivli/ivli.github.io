@@ -21,13 +21,12 @@ skills:
  - OOP/OOD
  - UML
  - Java
- - Matlab
+ - Matlab and Octave
  - GIT, SVN
  - SQL
  - Maven
  - MS Visual Studio
  - DICOM
- 
 
 #Work experience is required
 roles:
@@ -57,4 +56,6 @@ education:
 #List of interesting Github repo/projects to include - optional
 github:
  - ivli/roim
+ - ivli/Isolevels
+
  
