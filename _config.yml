@@ -47,15 +47,10 @@ roles:
    end: 2009
    employer: STC Ltd
    description: 
-- title: Team Technical Leader
+ - title: Senior Software Engineer
    start: 2005
    end: 2008
-   employer: Elcoteq Design Center Oyj 
-   description: 
-- title: Senior Software Engineer
-   start: 2002
-   end: 2005
-   employer: Elcoteq Design Center Oyj 
+   employer: Elcoteq Design Center Oy
    description: 
 
 #Education is required
