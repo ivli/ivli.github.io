@@ -1,4 +1,7 @@
-Just a CV-like personal page
+Yet anoher CV-like personal page :-)
+Happy reading.
+
+I.
 
 
 
