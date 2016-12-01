@@ -1,6 +1,4 @@
-
-Yet anoher CV-like personal page :-)
-
+Jekyll based personal page
 Happy viewing!
 
 I.
