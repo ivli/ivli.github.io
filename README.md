@@ -1,4 +1,8 @@
 Jekyll based personal page
-Happy viewing!
+
+
+[Edit with](http://prose.io/#ivli/ivli.github.io)
+
+*Happy viewing!*
 
 I.
