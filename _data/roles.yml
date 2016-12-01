@@ -22,10 +22,14 @@
   start: 2002
   end: 2005
   employer: Elcoteq Design Center Oyj
-  description: 
+  description:  
 - title: Software Engineer
   start: 2000
   end: 2002
   employer: w-Technologies Inc
-  description: 
-
+  description:
+- title: Software Engineer
+  start: 1999
+  end: 2002
+  employer: Raster Ltd
+  description: CAMAC based computer aided data acquisition system for high-voltage test laboratory 
