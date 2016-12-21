@@ -2,17 +2,22 @@
   start: 2011
   end: Ongoing
   employer: JSC "NIPK "Electron"
-  description: 
-- title: Head of Sensor Development 
+  description: run a set of projects aimed to develop nuclear medicine apparatus - SPECT (single photon emission tomograph). 
+               Entire project lifecycle from inception till NPI, servicing and providing customer trainings for both HW and SW.
+                         
+- title: Head of Sensor Development department 
   start: 2009
   end: 2011
   employer: Giesecke & Devrient GmbH
-  description: Simultaneously wore two hats of line- and project-manager of a scientific team - really hardcore of herding the cats 
+  description: >
+               Lead a heterogenous team of physicist, electronic and software engineers (several have PhD grade) really hardcore of herding the cats :-) 
+               Under my direct supervision a number of project has been completed. 
+               <br> Most noticeable ones: - Design and implementation of a set of algorithms of banknote serial number recognition <br> Hi power UV-LED endurance test (incl. procedure and equipment design and development) <br> Design of a principle of measurement of spatial conductivity of moving objects
 - title: Senior Software Engineer
   start: 2008
   end: 2009
   employer: STC Ltd
-  description: Had a year of fun, inventing algorithms firts time utilized my EE diploma, maths, core C++, and R&R 
+  description: Had a year of fun, inventing algorithms firts time utilized my EE diploma, maths, core C++, and many many experiments using simulated as well as real intercepts 
 - title: Team Technical Leader
   start: 2005
   end: 2008
