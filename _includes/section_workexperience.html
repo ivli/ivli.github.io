@@ -22,7 +22,18 @@
 							<td>{{role.end}}</td>
 							<td>{{role.employer}}</td>
 							<td class="hidden-sm hidden-xs" >{{role.description}}</td>
-						</tr>
+                                                 </tr>
+						 {%for project in site.data.projects %}
+							{%if project.employer == role.employer %} 
+       						     <tr> 
+							   <td>{{project.name}}</td>
+							   <td>{{project.start}}</td>
+							   <td>{{project.end}}</td>
+							   <td>{{project.customer}}</td>
+                                                           <td>{{project.description}} </td>
+						     </tr>
+                                                         {%endif%}
+					         {% endfor %}
 					{% endfor %}
 				</tbody>
 			</table>
