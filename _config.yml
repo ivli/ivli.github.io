@@ -13,13 +13,6 @@ primarylinks:
  - title: LinkedIn
    url: https://www.linkedin.com/in/igorlikhachev
 
-#Education is required
-education:
- - level: Master of Science (M.Sc. EE)
-   date: 1998
-   subject: TV and Video Engineering
-   school: Saint Petersburg State Electrotechnical University "LETI"
-
 #List of interesting Github repo/projects to include - optional
 github:
  - ivli/roim 
