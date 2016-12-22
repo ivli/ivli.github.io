@@ -1,4 +1,11 @@
-- level: Master of Science (M.Sc. EE)
+- level: M.Sc. EE
   date: 1998
-  subject: TV and Video Engineering
+  subject: Electronic and Communications Engineering
   school: Saint Petersburg State Electrotechnical University "LETI"
+  graduate_work: Digital processor for ultrasound Doppler Blood velocity metering device
+- level: B.Sc 
+  date: 1988
+  subject: Radiolocation and navigation
+  school: Leningrad Petersburg State Radiotechnical College (Technikum)
+  graduate_work: MIL-STD-1553 serial bus debugger  
+

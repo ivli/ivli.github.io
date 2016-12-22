@@ -1,0 +1,37 @@
+- name: JSC "NIPK "Electron"
+  description: 
+  address:
+  phone:
+  url: http://www.electronxray.com 
+  logo: img/logo_electron.png                      
+- name: Giesecke & Devrient GmbH
+  description: 
+  address:
+  phone:
+  url: http://www.gi-de.com
+  logo: img/logo_gide.png
+- name: STC Ltd  
+  description: 
+  address:
+  phone:
+  url: http://www.stc-spb.ru/ 
+  logo: http://www.stc-spb.ru/templates/gk_university/images/favicon.ico
+- name: Elcoteq Design Center Oyj
+  description: 
+  address:
+  phone:
+  url: 
+  logo:
+- name: w-Trade Technologies Inc
+  description: 
+  address:
+  phone:
+  url: 
+  logo:
+- name: Raster Ltd 
+  description: 
+  address:
+  phone:
+  url: 
+  logo:
+

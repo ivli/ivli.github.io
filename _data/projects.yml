@@ -1,26 +1,32 @@
-- name: nuclear medicine
+- name: Nuclear Medicine
   description: run a set of projects aimed to develop nuclear medicine apparatus - SPECT (single photon emission tomograph). 
                Entire project lifecycle from inception till NPI, servicing and providing customer trainings for both HW and SW.
   employer: JSC "NIPK "Electron"
-                         
-- description: Design and implementation of a set of algorithms of banknote serial number recognition 
+  role:                       
+- name:
+  description: Design and implementation of a set of algorithms of banknote serial number recognition 
   employer: Giesecke & Devrient GmbH
-- description: Hi power UV-LED endurance test (incl. procedure and equipment design and development) 
+- name:
+  description: Hi power UV-LED endurance test (incl. procedure and equipment design and development) 
   employer: Giesecke & Devrient GmbH
-- description: Design of a principle of measurement of spatial conductivity of moving objects
+- name:
+  description: Design of a principle of measurement of spatial conductivity of moving objects
   employer: Giesecke & Devrient GmbH
-- name: 
+- name:  
   employer: STC Ltd
   description: 
 - name:
-  employer: Elcoteq Design Center Oyj
   description: 
-- name:
   employer: Elcoteq Design Center Oyj
+  role: Team Technical Leader
+- name:
   description: plenty modules for Symbian from device drivers to OO-DB and custom BSP    
+  employer: Elcoteq Design Center Oyj
+  role: Senior Software Engineer
 - name: 
-  employer: w-Technologies Inc
   description: implemented the first enterprise appliaction for EPOC32 (maiden name of Symbian OS) devices  
+  employer: w-Technologies Inc
 - name: 
-  employer: Raster Ltd
   description: CAMAC based computer aided data acquisition system for high-voltage test laboratory 
+  employer: Raster Ltd
+
