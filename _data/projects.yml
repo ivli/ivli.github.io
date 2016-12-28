@@ -12,14 +12,15 @@
 - name:
   description: Design of a principle of measurement of spatial conductivity of moving objects
   employer: Giesecke & Devrient GmbH
-- name:  
+- name: COMINT system 
   employer: STC Ltd
-  description: 
+  description: classification algorithm of RF signals of apriori unknown source   
+  role: Senior Software Engineer
 - name:
-  description: 
+  description: 3G smart-phone based on Qualcomm chipset 
   employer: Elcoteq Design Center Oyj
   role: Team Technical Leader
-- name:
+- name: 
   description: plenty modules for Symbian from device drivers to OO-DB and custom BSP    
   employer: Elcoteq Design Center Oyj
   role: Senior Software Engineer

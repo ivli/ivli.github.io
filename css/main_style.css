@@ -55,7 +55,6 @@ table {
 	left:0px;top:20px;
 }
 
-
 #header_container {
 	/**background-color:#1E3D5A;**/
 	background: #fff url('../images/txtDarkBground.png');
@@ -151,7 +150,6 @@ table {
 	max-width:70px;
 }
 
-
 .column_menu {
 	margin-left:5px;
 	margin-right:5px;
@@ -190,6 +188,7 @@ table {
 	color: #EEF6F9;
 	font-weight:900;
 }
+
 .txt_lightgrey {
 	background-color:white;
 	border-color: #ABABAB;
@@ -198,6 +197,10 @@ table {
 	border-right-style: solid;
 	border-right-width: 0px;
 	margin-bottom:20px;
+}
+
+.grey-bg {
+	background-color:#ECEFE6;
 }
 
 img {  
@@ -228,19 +231,19 @@ h2 {
 	color: #ffd873;
 }
 
-
-
 .search-row > td{
 	padding-bottom: 10px;
 	padding-left:10px;  
 	padding-top:10px; 
 }
+
 .search-score{
 	font-size:25px;
 	font-style:bold; 
     color:#ffd873;
 	text-align:center; 
 }
+
 .small_text{
 	font-size:x-small;
 	font-style:italic;
@@ -262,11 +265,9 @@ h2 {
     color: #ffffff;
 }
 
-
 .small_text a{
 	text-decoration: none;
 }
-
 
 textarea{
     width:100%;
