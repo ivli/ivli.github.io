@@ -31,15 +31,15 @@
 							<td class="hidden-sm hidden-xs" >{{role.description}}</td>						
                         </tr>	
 										
-						{%for project in site.data.projects %}
-						    {%if project.employer == role.employer %}
-							{%if project.role == nil or project.role == role.title%} 
+						{% for project in site.data.projects %}
+						    {% if project.employer == role.employer %}
+							{% if project.role == nil or project.role == role.title %} 
        					        <tr> 
 							        <td colspan="2">{{project.name}}</td>
 							        <td colspan="3">{{project.description}}</td>
 						        </tr>
-                            {%endif%}
-							{%endif%}
+                            {% endif %}
+							{% endif %}
 					    {% endfor %}						
 					{% endfor %}
 				</tbody>
