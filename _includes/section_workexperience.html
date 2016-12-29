@@ -1,14 +1,9 @@
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap-collapse.js"></script>
-
-
 <div class="rounded_panel txt_lightgrey">
 	<div class="top-rounded-panel grey-bg">
-		<h1>Work Experience</h1>		
+		<h1>Work Experience</h1>
 	</div>
-	
+
 	<div class="content-rounded-panel">	
 		<div>
 			<table class="table table-striped table-hover table-condensed">
@@ -24,26 +19,22 @@
 				<tbody>
 					{% for role in site.data.roles %}
 						<tr>
-						    <td>{{role.title}}</td>
-						    <td class="hidden-sm hidden-xs">{{role.start}}</td>
-						    <td class="hidden-sm hidden-xs">{{role.end}}</td>							
-						    <td>{{role.employer}}</td>												 {% for company in site.data.companies%}  
-						    {% if company.name == role.employer %}
-                          <td class="hidden-sm hidden-xs" >{{company.description}}</td>	
-                          {% endif %}
-					    {% endfor %}	
-                  </tr>	
-										
-						{% for project in site.data.projects %}
-						    {% if project.employer == role.employer %}
-							{% if project.role == nil or project.role == role.title %} 
-       					        <tr> 
-							        <td colspan="2">{{project.name}}</td>
-							        <td colspan="3">{{project.description}}</td>
-						        </tr>
-                            {% endif %}
-							{% endif %}
-					    {% endfor %}						
+							<td>{{role.title}}</td>
+							<td class="hidden-sm hidden-xs">{{role.start}}</td>
+							<td class="hidden-sm hidden-xs">{{role.end}}</td>
+							<td>{{role.employer}}</td>
+							<td class="hidden-sm hidden-xs" >{{role.description}}</td>
+							</tr>
+							{% for project in site.data.projects %}
+								{% if project.employer == role.employer %}
+									{% if project.role == nil or project.role == role.title %} 
+									<tr> 
+										<td colspan="2">{{project.name}}</td>
+										<td colspan="3">{{project.description}}</td>
+									</tr>
+									{% endif %}
+								{% endif %}
+							{% endfor %}
 					{% endfor %}
 				</tbody>
 			</table>
@@ -51,3 +42,4 @@
 		<!--br-->
 	</div>
 </div>
+

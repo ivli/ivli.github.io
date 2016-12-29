@@ -1,11 +1,11 @@
 - name: JSC "NIPK "Electron"
-  description: medical visualization equipment R&D 
+  description: 
   address:
   phone:
   url: http://www.electronxray.com 
   logo: img/logo_electron.png                      
 - name: Giesecke & Devrient GmbH
-  description: cash flow processing 
+  description: 
   address:
   phone:
   url: http://www.gi-de.com
@@ -17,7 +17,7 @@
   url: http://www.stc-spb.ru/ 
   logo: http://www.stc-spb.ru/templates/gk_university/images/favicon.ico
 - name: Elcoteq Design Center Oyj
-  description: OEM & ODM
+  description: 
   address:
   phone:
   url: 
