@@ -27,8 +27,8 @@
 						    <td>{{role.title}}</td>
 						    <td class="hidden-sm hidden-xs">{{role.start}}</td>
 						    <td class="hidden-sm hidden-xs">{{role.end}}</td>							
-						 Â   <td>{{role.employer}}</td>												 {% for company in site.data.companies%}  
-							  {% if company.name == role.employer %}
+						    <td>{{role.employer}}</td>												 {% for company in site.data.companies%}  
+						    {% if company.name == role.employer %}
                           <td class="hidden-sm hidden-xs" >{{company.description}}</td>	
                           {% endif %}
 					    {% endfor %}	
