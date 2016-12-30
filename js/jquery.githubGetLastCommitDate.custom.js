@@ -12,11 +12,11 @@
 			},        
 			success: function(results) {
 				var date = new Date(results.data[0].commit.author.date);
-				var last_commit = date.getFullYear() + ':' +  (date.getMonth() + 1) + ':' + date.getDate();
+				var last_commit = date.getDate() + '.' + (date.getMonth() + 1)  + '.' + date.getFullYear();
 
 				$('#last-commit').html('<div class="last-commit">'
 									   +'<p>'
-									   + 'Last changed on: '
+									   + 'Last changed: '
 									   + last_commit + '</p>'
 									   + '</div>');
 		}
