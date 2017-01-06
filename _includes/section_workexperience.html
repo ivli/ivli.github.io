@@ -12,6 +12,21 @@
 	<script>
 		var elem = document.querySelector('.js-switch');
 		var switchery = new Switchery(elem, { size: 'small' });
+		elem.onchange = function() {
+			
+		var elements = document.getElementsByClassName('projectdescription');
+		
+		alert('found' + elements.length + 'rows');
+				
+		for (var i = 0; i < elements.length; i++) 
+		elements[i].toggle();
+			if (elem.checked)
+				elements[i].style.display = "yes";
+			else
+				elements[i].style.display = "none";
+			
+		}
+		
 	</script>
 
 	<div class="content-rounded-panel">
@@ -42,7 +57,7 @@
 							{% for project in site.data.projects %}
 								{% if project.employer == role.employer %}
 									{% if project.role == nil or project.role == role.title %} 
-									<tr> 
+									<tr class="projectdescription"> 
 										<td class="hidden-sm hidden-xs" colspan="2">{{project.name}}</td>
 										<td colspan="3">{{project.description}}</td>
 									</tr>
