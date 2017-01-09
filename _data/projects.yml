@@ -3,7 +3,7 @@
                Entire project lifecycle from inception till NPI, servicing and providing customer trainings for both HW and SW.
   employer: JSC "NIPK "Electron"
   role:                       
-- name:
+- name: 
   description: Design and implementation of a set of algorithms of banknote serial number recognition 
   employer: Giesecke & Devrient GmbH
 - name:
@@ -16,18 +16,20 @@
   employer: STC Ltd
   description: classification algorithm of RF signals of apriori unknown source   
   role: Senior Software Engineer
-- name:
+- name: 
   description: 3G smart-phone based on Qualcomm chipset 
   employer: Elcoteq Design Center Oyj
   role: Team Technical Leader
-- name: 
+
+- name: Build System
   description: plenty modules for Symbian from device drivers to OO-DB and custom BSP    
   employer: Elcoteq Design Center Oyj
   role: Senior Software Engineer
-- name: 
-  description: implemented the first enterprise appliaction for EPOC32 (maiden name of Symbian OS) devices  
+
+- name: wTrade 
+  description: client appliaction for Symbian devices for web-based stock trading system  
   employer: w-Technologies Inc
-- name: 
+- name: ARAMIS
   description: CAMAC based computer aided data acquisition system for high-voltage test laboratory 
   employer: Raster Ltd
 
