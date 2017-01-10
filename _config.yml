@@ -5,6 +5,10 @@ name: Igor Likhachev
 # Build settings
 markdown: kramdown
 
+# 
+gems:
+  - jekyll-seo-tag
+  
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
