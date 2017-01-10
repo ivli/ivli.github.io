@@ -39,9 +39,16 @@
 							<td>{{role.title}}</td>
 							<td class="hidden-sm hidden-xs">{{role.start}}</td>
 							<td class="hidden-sm hidden-xs">{{role.end}}</td>
-							<td>{{role.employer}}</td>
+							
 							{%for company in site.data.companies%}
 								{%if company.name == role.employer%}
+									<td>
+									{%if company.url != nil%}
+										<a href={{company.url}}>{{role.employer}}</a>
+									{%else%}
+										{{role.employer}}
+									{%endif%}
+									</td>
 									<td class="hidden-sm hidden-xs" >{{company.description}}</td>
 								{%endif%}
 							{%endfor%}
