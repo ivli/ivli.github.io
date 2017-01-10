@@ -6,25 +6,18 @@
 
 	<link rel="stylesheet" href="./css/switchery.min.css" />
 	<script src="./js/switchery.min.js"></script>
-
-	<input type="checkbox" class="js-switch" checked />
-
-	<script>
-		var elem = document.querySelector('.js-switch');
-		var switchery = new Switchery(elem, { size: 'small' });
-		elem.onchange = function() {
-			
-		var elements = document.getElementsByClassName('projectdescription');
-		
-		//alert('found' + elements.length + 'rows');
-				
-		for (var i = 0; i < elements.length; i++) 
-		elements[i].toggle();
-			if (elem.checked)
-				elements[i].style.display = "yes";
-			else
-				elements[i].style.display = "none";			
-		}
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<div>
+		<input id="pswitch" type="checkbox" class="js-switch" checked>show/hide projects</input>		
+	</div>
+	<script>		
+		var switchery = new Switchery(document.querySelector('.js-switch'), { size: 'small' });
+	</script>
+	
+	<script>	
+		$("#pswitch").change( function () {			
+			$("tr.pdesc").toggle();
+		});
 		
 	</script>
 
@@ -53,7 +46,7 @@
 								{%endif%}
 							{%endfor%}
 						</tr>
-						<tr> 
+						<tr class="pdesc"> 
 							<td colspan="5">
 								<table cols="2" width="100%">	
 									<col width="25%">
