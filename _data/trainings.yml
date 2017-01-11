@@ -2,22 +2,27 @@
   date: 2013
   subject: 
   trainer: IEEE
+  url:
 - name: Theory and practice of Project Management  
   date: 2011 
   subject: 
   trainer: Center for Modern Electronics
+  url: www.sovel.org/en
 - name: Radiation safety in medicine
   date: 2011 
   subject: 
-  trainer: St. Petersburg I. I. Mechnikov State Medical Academy
+  trainer: St. Petersburg I.I. Mechnikov State Medical Academy
+  url: 
 - name: Project management PMBoK v4 
   date: 2010
   subject: 
   trainer: SPB PMI Chapter
+  url: 
 - name: BREW platform   
   date: 2006
   subject: 
   trainer: Qualcomm Inc
+  url: 
 - name: Qualcomm AMSS  
   date: 2006
   subject: 
@@ -26,11 +31,14 @@
   date: 2004
   subject: 
   trainer: Symbian Inc
+  url: 
 - name: Programming communication modules for Symbian OS   
   date: 2004
   subject: 
   trainer: Digia Plc
+  url: 
 - name: Symbian OS applications programming    
   date: 2002
   subject: 
   trainer: Tietturi Oy
+  url: 
