@@ -44,12 +44,14 @@
 								{%if company.name == role.employer%}
 									<td>
 									{%if company.url != nil%}
-										<a href={{company.url}}>{{role.employer}}</a>
+										<a href={{company.url}}>
+											<img src={{company.logo}} alt={{company.name}}/>																			
+										</a>
 									{%else%}
 										{{role.employer}}
 									{%endif%}
 									</td>
-									<td class="hidden-sm hidden-xs" >{{company.description}}</td>
+									<td class="hidden-sm hidden-xs">{{company.description}}</td>
 								{%endif%}
 							{%endfor%}
 						</tr>
