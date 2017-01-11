@@ -1,32 +1,36 @@
-- name: Radiation safety 
-  date: 2011 
-  subject: 
-  trainer: St. Petersburg I. I. Mechnikov State Medical Academy 
 - name: PET and SPECT detector design 
   date: 2013
   subject: 
   trainer: IEEE
+- name: Theory and practice of Project Management  
+  date: 2011 
+  subject: 
+  trainer: Center for Modern Electronics
+- name: Radiation safety 
+  date: 2011 
+  subject: 
+  trainer: St. Petersburg I. I. Mechnikov State Medical Academy
 - name: Project management PMBoK v4 
   date: 2010
   subject: 
   trainer: SPB PMI Chapter
-- name: BREW   
-  date: 
+- name: BREW platform   
+  date: 2006
   subject: 
   trainer: Qualcomm Inc
 - name: Qualcomm AMSS  
-  date: 
+  date: 2006
   subject: 
   trainer: Qualcomm Inc
 - name: Symbian OSI (Operating System Internals)   
-  date: 
+  date: 2004
   subject: 
   trainer: Symbian Inc
 - name: Programming communication modules for Symbian OS   
-  date: 
+  date: 2004
   subject: 
   trainer: Digia Plc
-
-
-
-
+- name: Symbian OS applications programming    
+  date: 2002
+  subject: 
+  trainer: Tietturi Oy
