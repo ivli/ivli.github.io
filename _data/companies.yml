@@ -3,15 +3,15 @@
   address:
   phone:
   url: http://www.electronxray.com 
-  logo: img/logo_electron.png                      
+  logo:                      
 - name: Giesecke & Devrient GmbH
   description: 
   address:
   phone:
   url: http://www.gi-de.com
-  logo: img/logo_gide.png
+  logo: 
 - name: STC Ltd  
-  description: COMINT 
+  description:    
   address:
   phone:
   url: http://www.stc-spb.ru/ 
