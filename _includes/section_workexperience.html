@@ -37,24 +37,15 @@
 							<td>{{role.title}}</td>
 							<td class="hidden-sm hidden-xs">{{role.start}}</td>
 							<td class="hidden-sm hidden-xs">{{role.end}}</td>
-							{% for company in site.data.companies %}
-								{% if company.name == role.employer %}
-									<td>
-									{% if company.url != nil %}
-										<a href="{{company.url}}">
-										{% if company.logo != nil %}
-											<img src="{{company.logo}}" alt={{company.name}}>
-										{% else %}
-											{{company.name}}
-										{% endif %}
-										</a>
-									{% else %}
-										{{role.employer}}
-									{% endif %}
-									</td>
-									<td class="hidden-sm hidden-xs">{{company.description}}</td>
-								{% endif %}
-							{% endfor %}
+							<td>
+							{% assign companies = site.data.companies | where_exp: "item", "item.name contains role.employer" %}
+							{% assign company = companies[0] %}
+							{% if company.url != nil %}<a href="{{company.url}}" > {% endif %}
+							{% if company.logo != nil %}<img src="{{company.logo}}" height="40" alt="{{company.name}}"> {% endif %}
+							{{company.name}}
+							{% if company.url != nil %}</a> {% endif %}
+							</td>
+							<td class="hidden-sm hidden-xs">{{company.description}}</td>
 						</tr>
 						<tr class="pdesc"> 
 							<td colspan="5">
