@@ -7,19 +7,16 @@
 	<link rel="stylesheet" href="./css/switchery.min.css" />
 	<script src="./js/switchery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	
+
 	<div>
-		<input id="pswitch" type="checkbox" class="js-switch" checked>show/hide projects</input>		
+		<input id="pswitch" type="checkbox" class="js-switch" checked>show/hide projects</input>
 	</div>
-	
-	<script>		
+
+	<script>
 		var switchery = new Switchery(document.querySelector('.js-switch'), { size: 'small'/*, secondaryColor: '#ff0000' */});
-	</script>	
-	<script>	
-		$("#pswitch").change( function () {			
-			$("tr.pdesc").toggle();
-		});
-		
+	</script>
+	<script>
+		$("#pswitch").change( function () {$("tr.pdesc").toggle();});
 	</script>
 
 	<div class="content-rounded-panel">
@@ -40,48 +37,47 @@
 							<td>{{role.title}}</td>
 							<td class="hidden-sm hidden-xs">{{role.start}}</td>
 							<td class="hidden-sm hidden-xs">{{role.end}}</td>
-							
-							{%for company in site.data.companies%}
-								{%if company.name == role.employer%}
+							{% for company in site.data.companies %}
+								{% if company.name == role.employer %}
 									<td>
-									{%if company.url != nil%}
-										<a href={{company.url}}>
-										{%if company.logo != nil %}
-											<img src={{company.logo}} alt={{company.name}}>	
-										{%else%}
+									{% if company.url != nil %}
+										<a href="{{company.url}}">
+										{% if company.logo != nil %}
+											<img src="{{company.logo}}" alt={{company.name}}>
+										{% else %}
 											{{company.name}}
-										{%endif%}
+										{% endif %}
 										</a>
-									{%else%}
+									{% else %}
 										{{role.employer}}
-									{%endif%}
+									{% endif %}
 									</td>
 									<td class="hidden-sm hidden-xs">{{company.description}}</td>
-								{%endif%}
-							{%endfor%}
+								{% endif %}
+							{% endfor %}
 						</tr>
 						<tr class="pdesc"> 
 							<td colspan="5">
-								<table cols="2" width="100%">	
+								<table cols="2" width="100%">
 									<col width="25%">
-									<col width="70%">								
+									<col width="70%">
 									{% for project in site.data.projects %}
 										{% if project.employer == role.employer %}
-										{% if project.role == nil or project.role == role.title %} 	
-										<tr>										
+										{% if project.role == nil or project.role == role.title %}
+										<tr>
 											<td><ul><li>{{project.name}}</ul></td>
-											<td>{{project.description}}</td>	
-										</tr>											
+											<td>{{project.description}}</td>
+										</tr>
 										{% endif %}
 										{% endif %}
-									{% endfor %}									
+									{% endfor %}
 								</table>
 							</td>
 						</tr>
 					{% endfor %}
 				</tbody>
 			</table>
-		</div>		
+		</div>
 	</div>
 </div>
 

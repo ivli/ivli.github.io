@@ -13,24 +13,22 @@
 						<th class="hidden-sm hidden-xs" ><a style="cursor: pointer;">Start Date</a></th>
 						<th class="hidden-sm hidden-xs" ><a style="cursor: pointer;">End Date</a></th>
 						<th class="hidden-sm hidden-xs" ><a style="cursor: pointer;">Company</a></th>
-						
 					</tr>
 				</thead>
 				<tbody>
 					{%for project in site.data.projects %}
 						<tr>
-						    <td>{{project.name}}</td>
+							<td>{{project.name}}</td>
 							<td>{{project.description}}</td>
 							<td>{{project.role}}</td>
-						    <td class="hidden-sm hidden-xs" >{{project.start}}</td>
-						    <td class="hidden-sm hidden-xs" >{{project.end}}</td>							
-						    <td class="hidden-sm hidden-xs" >{{project.employer}}</td>													    
-							<td class="hidden-sm hidden-xs" >{{role.description}}</td>						
-                        </tr>						
+							<td class="hidden-sm hidden-xs" >{{project.start}}</td>
+							<td class="hidden-sm hidden-xs" >{{project.end}}</td>
+							<td class="hidden-sm hidden-xs" >{{project.employer}}</td>
+							<td class="hidden-sm hidden-xs" >{{role.description}}</td>
+						</tr>
 					{% endfor %}
 				</tbody>
 			</table>
-		</div>
-		<br>
+		</div>	
 	</div>
 </div>
