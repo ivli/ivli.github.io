@@ -1,24 +1,21 @@
 ;jQuery(document).ready(function($) {
 	var repo = $("#last-commit").data('repo');
-	var vendorName = repo.split('/')[0]; 
-	var	repoName   = repo.split('/')[1];
+	var repo = repo.split('/');
 
 	$.ajax({
-			url: 'https://api.github.com/repos/'+vendorName+'/'+repoName+'/commits',
+			url: 'https://api.github.com/repos/'+repo[0]+'/'+repo[1]+'/commits',
 			dataType: 'jsonp',
 			cache: true,
-			error:  function() {
-				alert( "shit happens" );
+			error: function() {
+				$('#last-commit').html('<div class="last-commit">'+
+										'<p><span style=\"color:0xff0000\">Can\'t reach to github </span></p></div>'
+									  );
 			},        
 			success: function(results) {
-				var date = new Date(results.data[0].commit.author.date);
-				var last_commit = date.getDate() + '.' + (date.getMonth() + 1)  + '.' + date.getFullYear();
-
-				$('#last-commit').html('<div class="last-commit">'
-									   +'<p>'
-									   + 'Last changed: '
-									   + last_commit + '</p>'
-									   + '</div>');
+				$('#last-commit').html('<div class="last-commit">'+
+										'<p> Last changed: '+new Date(results.data[0].commit.author.date).toLocaleString()+'</p>'+
+										'</div>'
+									  );
 		}
 	});
 });
