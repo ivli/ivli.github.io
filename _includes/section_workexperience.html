@@ -40,10 +40,12 @@
 							<td>
 							{% assign companies = site.data.companies | where_exp: "item", "item.name contains role.employer" %}
 							{% assign company = companies[0] %}
-							{% if company.url != nil %}<a href="{{company.url}}" > {% endif %}
+							{% if company.url != nil %}<a href="{{company.url}}" > 
 							{% if company.logo != nil %}<img src="{{company.logo}}" height="40" alt="{{company.name}}"> {% endif %}
+							</a> 
+							{% else %}
 							{{company.name}}
-							{% if company.url != nil %}</a> {% endif %}
+							{% endif %}
 							</td>
 							<td class="hidden-sm hidden-xs">{{company.description}}</td>
 						</tr>
@@ -52,14 +54,13 @@
 								<table cols="2" width="100%">
 									<col width="25%">
 									<col width="70%">
-									{% for project in site.data.projects %}
-										{% if project.employer == role.employer %}
+									{% assign projects = site.data.projects | where_exp: "item", "item.employer == role.employer" %}
+									{% for project in projects %}
 										{% if project.role == nil or project.role == role.title %}
 										<tr>
 											<td><ul><li>{{project.name}}</ul></td>
 											<td>{{project.description}}</td>
 										</tr>
-										{% endif %}
 										{% endif %}
 									{% endfor %}
 								</table>
