@@ -8,8 +8,7 @@ markdown: kramdown
 # 
 gems:
  - jekyll-seo-tag
- - html_press
-  
+ 
 #User specific content
 #Links that will appear in the navbar
 primarylinks:

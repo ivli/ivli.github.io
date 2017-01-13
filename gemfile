@@ -1,5 +1,4 @@
 source :rubygems
 
-
-gem "html_press"
+gem "jekyll-press"
 gem "jekyll-seo-tag"
