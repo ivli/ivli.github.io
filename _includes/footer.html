@@ -4,31 +4,19 @@
 		<p><a target='_blank' href="https://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a></p>
 	{% endif %}
 	
-	<div class="rounded_panel txt_lightgrey">
-	<div class="content-rounded-panel">
-	<table cols="2" class="table table-condensed">
-	<tr>
-		<td>
-			<a href="https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk" target='_blank'>CV of mine, printer friendly version</a>
-		</td>	
-		<td class="input-prepend">
-			<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>	
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<i id="last-commit" data-repo="ivli/ivli.github.io"></i> 
-		</td>	
-		<td>
-			{{site.buildstatus | markdownify}}
-		</td>
-	</tr>
-	<tr> 
-		<td span="2">
-			<p>Saint Petersburg, RUSSIA</p>
-		</td>	
-	</tr>	
-	</table>
+	<div>
+		<a href="https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk" target='_blank'>CV of mine, printer friendly version</a>
+	</div>	
+	<div class="input-prepend">
+		<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>
 	</div>
+	<div style="display: flex ">
+	<div style="flex: 1 auto">	
+		<p>Saint Petersburg, RUSSIA</p>
+	</div>
+	<div style="flex: 1 auto">
+		<div id="last-commit" data-repo="ivli/ivli.github.io"></div> <br>
+		<div> {{site.buildstatus | markdownify}} </div>
+	</div>	
 	</div>
 </footer>
