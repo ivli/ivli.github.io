@@ -4,25 +4,30 @@
 		<p><a target='_blank' href="https://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a></p>
 	{% endif %}
 	<div>
-		<a href="https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk" target='_blank'>CV of mine, printer friendly version</a>
+		
 	</div>	
 	<div>
 	<table class="table table-striped table-hover table-condensed">
 	<tr>
-	<td class="input-prepend">
-		<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>	
-	</td>
-	<td>
-		{{site.buildstatus | markdownify}}
-	</td>
+		<td>
+			<a href="https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk" target='_blank'>CV of mine, printer friendly version</a>
+		</td>	
+		<td class="input-prepend">
+			<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>	
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<i id="last-commit" data-repo="ivli/ivli.github.io"></i> 
+		</td>	
+		<td>
+			{{site.buildstatus | markdownify}}
+		</td>
 	</tr>
 	<tr> 
-		<td>
-		<p>Saint Petersburg, RUSSIA</p>
-		</td>
-	<td>
-		<i id="last-commit" data-repo="ivli/ivli.github.io"></i> 
-	</td>		
+		<td span="2">
+			<p>Saint Petersburg, RUSSIA</p>
+		</td>	
 	</tr>	
 	</table>
 	</div>
