@@ -6,18 +6,24 @@
 	<div>
 		<a href="https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk" target='_blank'>CV of mine, printer friendly version</a>
 	</div>	
-	<div class="input-prepend">
-		<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>
-		<!--i id="email-me" class="icon-envelope"></i-->
-	</div>
-	<div style="display: flex ">
-	<div style="flex: 1 auto">	
+	<div>
+	<table>
+	<tr>
+	<td class="input-prepend">
+		<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>	
+	</td>
+	<td>
+		{{site.buildstatus | markdownify}}
+	</td>
+	</tr>
+	<tr> 
+		<td>
 		<p>Saint Petersburg, RUSSIA</p>
+		</td>
+	<td>
+		<i id="last-commit" data-repo="ivli/ivli.github.io"></i> 
+	</td>		
+	</tr>	
+	</table>
 	</div>
-	<div style="flex: 1 auto">
-		<div id="last-commit" data-repo="ivli/ivli.github.io"></div> <br>
-		<div> {{site.buildstatus | markdownify}} </div>
-	</div>	
-	</div>
-	<br><br>
 </footer>
