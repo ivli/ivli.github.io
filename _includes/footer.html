@@ -4,16 +4,18 @@
 		<p><a target='_blank' href="https://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a></p>
 	{% endif %}
 	
-	<div>
-		<a href="https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk" target='_blank'>CV of mine, printer friendly version</a>
-	</div>	
 		
-	<div style="display: flex">	
+		
+	<div style="display: flex; justify-content: center">	
 	<div class="input-prepend" style="flex: 1 auto">
 		<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>
 	</div>
+	<div style="flex: 1 auto">
+		<a href="https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk" target='_blank'>CV of mine, printer friendly version</a>
+	</div>
+
 	<div style="flex: 1 auto" id="last-commit" data-repo="ivli/ivli.github.io"></div> <br>
 	<div style="flex: 1 auto"> {{site.buildstatus | markdownify}} </div>
 	
-	<div style="flex: 2 auto; justify-content: center"><p>Saint Petersburg, RUSSIA</p></div>
+	<div style="flex: 2 auto"><p>Saint Petersburg, RUSSIA</p></div>
 </footer>
