@@ -39,7 +39,7 @@
 							<td class="hidden-sm hidden-xs">{{role.end}}</td>
 							<td>
 							{% assign companies = site.data.companies | where_exp: "item", "item.name contains role.employer" %}
-							{% assign company = companies[0] %}
+							% assign company = companies[0] %
 							{% if company.url != nil %}<a href="{{company.url}}"> 
 							{% if company.logo != nil %}<img src="{{company.logo}}" height="40" alt="{{company.name}}"> {% endif %}
 							</a> 
@@ -50,7 +50,7 @@
 							<td class="hidden-sm hidden-xs">{{company.description}}</td>
 						</tr>
 						<tr class="pdesc"> 
-							<td colspan="0">
+							<td colspan="100%">
 								<table style="width:100%">
 									<col style="width:25%">
 									<col style="width:70%">
