@@ -25,3 +25,6 @@ github:
 
 hobbies:
  - skiing both alpine an xc, biking, skating (asphalt), reading and I am an amateur guitar player
+
+buildstatus: >
+  [![Build Status](https://app.snap-ci.com/ivli/ivli.github.io/branch/master/build_image)](https://app.snap-ci.com/ivli/ivli.github.io/branch/master)
