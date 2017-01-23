@@ -1,7 +1,7 @@
 <footer>
-	<hr size="3">
+	<hr style="size:3px">
 	{% if site.twitter_username %}
-		<p><a target='_blank' href="https://twitter.com/{{site.twitter_username}}">@{{site.twitter_username}}</a></p>
+		<p><a href="https://twitter.com/{{site.twitter_username}}" target='_blank'>@{{site.twitter_username}}</a></p>
 	{% endif %}
 		
 	<div style="display: flex; justify-content: center">	
@@ -9,14 +9,13 @@
 			<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>
 		</div>
 		<div style="flex: 1 auto">
-			<a href="https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk" target='_blank'>CV of mine, printer friendly version</a>
+			<i class="fa fa-print" aria-hidden="true"></i>
+			{{site.cv-file  | markdownify }}
 		</div>
 	</div>
 	<div style="display: flex; justify-content: center">
 		<div style="flex: 1 auto" id="last-commit" data-repo="ivli/ivli.github.io"></div>
 		<div style="flex: 1 auto"> {{site.buildstatus | markdownify}} </div>
-	</div>
-	
+	</div>	
 		<div style="align-content: center"><p>Saint Petersburg, RUSSIA</p></div>
-
 </footer>
