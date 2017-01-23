@@ -1,7 +1,7 @@
 # Site settings
 title: Welcome to Igor Likhachev's home page!
 name: Igor Likhachev
-
+url: https://ilikhachev.com
 # Build settings
 markdown: kramdown
 
