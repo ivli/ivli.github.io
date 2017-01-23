@@ -51,9 +51,9 @@
 						</tr>
 						<tr class="pdesc"> 
 							<td colspan="5">
-								<table cols="2" width="100%">
-									<col width="25%">
-									<col width="70%">
+								<table cols="2" style="width:100%">
+									<col style="width:25%">
+									<col style="width:70%">
 									{% assign projects = site.data.projects | where_exp: "item", "item.employer == role.employer" %}
 									{% for project in projects %}
 										{% if project.role == nil or project.role == role.title %}
