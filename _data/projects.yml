@@ -1,5 +1,5 @@
 - name: Nuclear Medicine
-  description: run a set of projects aimed to develop nuclear medicine apparatus - SPECT (single photon emission tomograph). 
+  description: run a group of projects aimed to develop nuclear medicine apparatus - SPECT (single photon emission tomograph). 
                Entire project lifecycle from inception till NPI, servicing and providing customer trainings for both HW and SW.
   employer: JSC "NIPK "Electron"
   role:                       
@@ -14,18 +14,24 @@
   employer: Giesecke & Devrient GmbH
 - name: COMINT system 
   employer: STC Ltd
-  description: classification algorithm of RF signals of apriori unknown source   
+  description: classification algorithm of unknown source RF signals.     
   role: Senior Software Engineer
-- name: 
-  description: 3G smart-phone based on Qualcomm chipset 
+- name: 3G smartphone based on Qualcomm MSM platform and BREW
+  description: Lead software project including development of the custom BSP and addjusting UI LAF to corporate style  
   employer: Elcoteq Design Center Oyj
   role: Team Technical Leader
-
-- name: Build System
-  description: plenty modules for Symbian from device drivers to OO-DB and custom BSP    
+- name: Mid-tier mobile phone based on Freescale and inhouse UI toolkit
+  description: Lead 3d party integration team, responsible for integration communications stack (IrDA, OBEX etc), Messaging (SMS/EMS/MMS) and a number of other solutions into Freescale MX platform and our UI toolkit        
+  employer: Elcoteq Design Center Oyj
+  role: Team Technical Leader
+- name: Build System for inhouse UI toolkit
+  description: Buid system based on CMake and Perl with homebrewed resource definition language, integrated with ClearCase SCM and capable of running on Win/Linux and Solaris       
   employer: Elcoteq Design Center Oyj
   role: Senior Software Engineer
-
+- name: GPS enabled mobile phone based on TI and Symbian OS 
+  description: DB server to handle telematic data, multiuser Object Oriented DB server on top of Symbian SQL engine    
+  employer: Elcoteq Design Center Oyj
+  role: Senior Software Engineer
 - name: wTrade 
   description: client appliaction for Symbian devices for web-based stock trading system  
   employer: w-Technologies Inc
