@@ -416,3 +416,19 @@ td.loginRow {
 .github-box {
 	margin-top: 15px;
 }
+
+.wrapper{    
+    display: flex;
+    width: 100%;
+}
+
+.item-left {    
+    flex: 1 auto;
+    text-align: left;  
+}
+
+.item-right{    
+    flex: 1 auto;
+    text-align: right;   
+}
+

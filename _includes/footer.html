@@ -4,18 +4,24 @@
 		<p><a href="https://twitter.com/{{site.twitter_username}}" target='_blank'>@{{site.twitter_username}}</a></p>
 	{% endif %}
 		
-	<div style="display: flex">	
-		<div class="input-prepend" style="flex: 1 auto">
+	<div class="wrapper">			
+		<div class="item-left">
 			<i id="email-me" class="fa fa-envelope" aria-hidden="true"></i>
 		</div>
-		<div style="flex: 1 auto">
+		<div class="item-right">
 			<p><i class="fa fa-print" aria-hidden="true"></i>
-			<a href="{{site.extras}}" target='_blank'>Printer friendly version</a></p>
+			<a href="{{site.extras}}" target='_blank'> Printer friendly version</a></p>
 		</div>
 	</div>
-	<div style="display: flex">
-		<div style="flex: 1 auto" id="last-commit" data-repo="ivli/ivli.github.io"></div>
-		<div style="flex: 1 auto"> {{site.buildstatus | markdownify}} </div>
+	<div class="wrapper">
+		<div class="item-left">
+			<span  id="last-commit" data-repo="ivli/ivli.github.io"></span>
+		</div>
+		<div class="item-right">
+			<span> {{site.buildstatus | markdownify}} </span>
+		</div>
 	</div>	
-		<div style="justify-content: center"><p>Saint Petersburg, RUSSIA</p></div>
+	<div style="text-align: center">
+		Saint Petersburg, RUSSIA
+	</div></br></br>
 </footer>
