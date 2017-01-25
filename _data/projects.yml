@@ -6,8 +6,8 @@
 - name: 
   description: Design and implementation of a set of algorithms of banknote serial number recognition 
   employer: Giesecke & Devrient GmbH
-- name:
-  description: Hi power UV-LED endurance test (incl. procedure and equipment design and development) 
+- name: UV lamp substitution with LED:proof of concept  
+  description: Endurance test for Hi power UV-LED including test procedure definition, design and build test stand, test execution for various LED types and finally held presentation    
   employer: Giesecke & Devrient GmbH
 - name:
   description: Design of a principle of measurement of spatial conductivity of moving objects
