@@ -7,10 +7,10 @@
 			dataType: 'jsonp',
 			cache: true,
 			error: function() {
-				$('#last-commit').html('<p><span style=\"color:0xff0000\">Can\'t reach to github </span></p>' );																			 
+				$('#last-commit').html('<span style=\"color:0xff0000\">Can\'t reach to github </span>' );																			 
 			},        
 			success: function(results) {
-				$('#last-commit').html('<p> Last changed: '+new Date(results.data[0].commit.author.date).toLocaleString()+'</p>');					 
+				$('#last-commit').html('<span> Last changed: '+new Date(results.data[0].commit.author.date).toLocaleString()+'</span>');					 
 		}
 	});
 });
