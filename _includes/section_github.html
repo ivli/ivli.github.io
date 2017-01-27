@@ -1,9 +1,9 @@
 {% if site.github %}
-	<div class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1>Some projects I am Working On</h1>
+	<div id="section-projects-github" class="panel panel-primary">
+		<div class="panel-heading">
+			<h1 class="panel-title"> <i class="fa fa-github" aria-hidden="true"></i> Some projects I am Working On</h1>
 		</div>
-		<div class="content-rounded-panel" style="overflow: hidden;">
+		<div class="panel-body" style="overflow: hidden;">
 			<div>
 				{% for project in site.github %}
 					{% assign loopindex = forloop.index | modulo: 2 %}
