@@ -20,10 +20,10 @@
 		$('head').append(
 			'<style type="text/css">'
 			+'.github-box *{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}'
-			+'.github-box{font-family:helvetica,arial,sans-serif;font-size:13px;line-height:18px;background:#444444;border:1px solid #555555;color:#666;border-radius:3px}'
+			+'.github-box{font-family:helvetica,arial,sans-serif;font-size:13px;line-height:18px; background:#444444;border:1px solid #555555;color:#666;border-radius:3px}'
 			+'.github-box a{color:#4183c4;border:0;text-decoration:none}'
-			+'.github-box .github-box-title{position:relative;border-bottom:1px solid #555555;border-radius:3px 3px 0 0;background:#333333;background:-moz-linear-gradient(#fcfcfc,#ebebeb);background:-webkit-linear-gradient(#fcfcfc,#ebebeb);}'
-			+'.github-box .github-box-title h3{word-wrap:break-word;font-family:helvetica,arial,sans-serif;font-weight:normal;font-size:16px;color:gray;margin:0;padding:10px 10px 10px 30px;background:url('+box_title_png+') 7px center no-repeat; width: auto;}'
+			+'.github-box .github-box-title{position:relative;border-bottom:1px solid #555555; border-radius:3px 3px 0 0; background:#333333;}'
+			+'.github-box .github-box-title h3{word-wrap:break-word;font-family:helvetica,arial,sans-serif;font-weight:normal;font-size:16px;color:gray;margin:0;padding:10px 10px 10px 30px;background: url('+box_title_png+') 7px center no-repeat; width: auto;}'
 			+'.github-box .github-box-title h3 .repo{font-weight:bold}'
 			+'.github-box .github-box-title .github-stats{float:right;position:absolute;top:8px;right:10px;font-size:11px;font-weight:bold;line-height:21px;height:auto;min-height:21px}'
 			+'.github-box .github-box-title .github-stats a{display:inline-block;height:21px;color:#666;border:1px solid #555555;border-radius:3px;padding:0 5px 0 18px;background: #2e2e2e url('+stats_png+') no-repeat}'
