@@ -4,11 +4,14 @@ name: Igor Likhachev
 url: https://ilikhachev.com
 # Build settings
 markdown: kramdown
-
+##theme: minima
 # 
 gems:
  - jekyll-seo-tag
  ##- jekyll-press
+exclude:
+ - Gemfile
+ - Gemfile.lock
  
 #User specific content
 #Links that will appear in the navbar

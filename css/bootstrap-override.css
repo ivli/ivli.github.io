@@ -1,5 +1,14 @@
 body {
-  background: #333333;    
+  background: #333333;  
+
+}
+
+p, div, span, table {
+	  color:black;  
+}
+
+table:hover, tr:hover, tc:hover {	
+	background: #444444;
 }
 
 .panel-primary > .panel-heading
