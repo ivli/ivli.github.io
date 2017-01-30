@@ -35,11 +35,15 @@
 							<td>
 							{% assign companies = site.data.companies | where_exp: "item", "item.name contains role.employer" %}
 							{% assign company = companies[0] %}
-							{% if company.url != nil %}<a href="{{company.url}}"> 
-							{% if company.logo != nil %}<img src="{{company.logo}}" height="40" alt="{{company.name}}"> {% endif %}
-							</a> 
-							{% else %}
-							{{company.name}}
+							{% if company != nil %}
+								{% if company.url != nil %}<a href="{{company.url}}"> 
+									{% if company.logo != nil %}<img src="{{company.logo}}" height="40" alt="{{company.name}}">  {% endif %}
+									{{company.name}} </a> 
+								{% else %}
+									{{company.name}}
+								{% endif %}
+							{%else%}
+								{{role.employer}}
 							{% endif %}
 							</td>
 							<td class="hidden-sm hidden-xs">{{company.description}}</td>

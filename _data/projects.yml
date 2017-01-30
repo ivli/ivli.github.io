@@ -2,16 +2,18 @@
   description: run a group of projects aimed to develop nuclear medicine apparatus - SPECT (single photon emission tomograph). 
                Entire project lifecycle from inception till NPI, servicing and providing customer trainings for both HW and SW.
   employer: JSC "NIPK "Electron"
-  role:                       
+  role: Project Manager                       
 - name: 
   description: Design and implementation of a set of algorithms of banknote serial number recognition 
   employer: Giesecke & Devrient GmbH
 - name: UV lamp substitution with LED:proof of concept  
   description: Endurance test for Hi power UV-LED including test procedure definition, design and build test stand, test execution for various LED types and finally held presentation    
   employer: Giesecke & Devrient GmbH
+  role: Head of Sensor Development department
 - name:
   description: Design of a principle of measurement of spatial conductivity of moving objects
   employer: Giesecke & Devrient GmbH
+  role: Head of Sensor Development department
 - name: COMINT system 
   employer: STC Ltd
   description: classification algorithm of unknown source RF signals.     
