@@ -10,7 +10,7 @@
 				$('#last-commit').html('<span style=\"color:0xff0000\">Can\'t reach to github </span>' );																			 
 			},        
 			success: function(results) {
-				$('#last-commit').html('<span> Last changed: '+new Date(results.data[0].commit.author.date).toLocaleString()+'</span>');					 
+				$('#last-commit').html('Last changed: '+new Date(results.data[0].commit.author.date).toLocaleString());					 
 		}
 	});
 });

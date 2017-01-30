@@ -26,7 +26,8 @@ table:hover, tr:hover, tc:hover {
 }
 
 .label {
-  background:#2e2e2e
+  background:#2e2e2e;
+  color:#ffcc00;
 }
 
 
