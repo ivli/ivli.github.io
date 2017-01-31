@@ -26,7 +26,7 @@
 			+'.github-box .github-box-title h3{word-wrap:break-word;font-family:helvetica,arial,sans-serif;font-weight:normal;font-size:16px;color:gray;margin:0;padding:10px 10px 10px 30px;background: url('+box_title_png+') 7px center no-repeat; width: auto;}'
 			+'.github-box .github-box-title h3 .repo{font-weight:bold}'
 			+'.github-box .github-box-title .github-stats{float:right;position:absolute;top:8px;right:10px;font-size:11px;font-weight:bold;line-height:21px;height:auto;min-height:21px}'
-			+'.github-box .github-box-title .github-stats a{display:inline-block;height:21px;color:#666;border:1px solid #555555;border-radius:3px;padding:0 5px 0 18px;background: #2e2e2e url('+stats_png+') no-repeat}'
+			+'.github-box .github-box-title .github-stats a{display:inline-block;height:21px;color:#666;border:1px solid #555555;border-radius:3px;padding:0 5px 0 18px;background: white url('+stats_png+') no-repeat}'
 			+'.github-box .github-box-title .github-stats .watchers{border-right:1px solid #555555}'
 			+'.github-box .github-box-title .github-stats .forks{background-position:-4px -21px;padding-left:15px}'
 			+'.github-box .github-box-content{padding:10px;font-weight:300}'
