@@ -1,12 +1,15 @@
-<nav id="page-header" class="navbar navbar-inverse">
-	<div class="container-fluid">
+<nav id="page-header" class="navbar navbar-inverse ">
+	<div class="container">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">
-				<H1>{{site.title}}</H1>
+				
 			</a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
+				{% for section in site.data.sections %}
+					<li><a target='_self' href="#{{section.id}}">{{section.name}}</a></li>
+				{% endfor %}
 				{% for link in site.primarylinks %}
 					<li><a target='_blank' href="{{link.url}}">{{link.title}}</a></li>
 				{% endfor %}
