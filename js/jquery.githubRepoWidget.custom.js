@@ -6,6 +6,7 @@
 
 	var vendors = {};
 
+
 	//Group repos keyed by vendor(username)
 	$('.github-widget').each(function(){
 		var repo = $(this).data('repo'), 
