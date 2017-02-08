@@ -1,13 +1,13 @@
 - name: JSC "NIPK "Electron"
   description: 
-  address:
-  phone:
+  address: 
+  phone:  
   url: http://www.electronxray.com
   logo:               
 - name: Giesecke & Devrient GmbH
-  description: 
-  address:
-  phone:
+  description:  
+  address: 
+  phone: 
   url: http://www.gi-de.com
   logo: 
 - name: STC Ltd  
@@ -15,7 +15,7 @@
   address:
   phone:
   url: http://www.stc-spb.ru/ 
-  logo: http://www.stc-spb.ru/templates/gk_university/images/favicon.ico
+  logo: 
 - name: Elcoteq Design Center Oyj
   description: 
   address:
@@ -29,7 +29,7 @@
   url: 
   logo:
 - name: Raster Ltd 
-  description: Saint Petersburg State Electrotechnical University's spin off
+  description:  
   address:
   phone:
   url: 
