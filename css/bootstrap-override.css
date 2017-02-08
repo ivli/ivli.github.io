@@ -8,6 +8,10 @@ h1 {
   font-family: 'Franklin Gothic Medium';
 }
 
+h2 {
+  color:#8e8e8e; 
+}
+
 body {
   background: #333333;  
   color:#8e8e8e; 
@@ -29,7 +33,6 @@ table:hover, tr:hover, tc:hover {
 .panel-primary > .panel-body {  
   background:#444444;    
 }
-
 
 .navbar, .panel, .panel-primary > .panel-heading {
     border-color:#555555;  
