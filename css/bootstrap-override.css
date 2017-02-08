@@ -1,6 +1,6 @@
 head {
   background: #333333;
-  color:black; 
+  color:#8e8e8e; 
 }
 
 h1 {
@@ -10,11 +10,11 @@ h1 {
 
 body {
   background: #333333;  
-  color:black; 
+  color:#8e8e8e; 
 }
 
 p, div, span, table {
-	  color:black;  
+	  color:#8e8e8e;  
 }
 
 table:hover, tr:hover, tc:hover {	
@@ -37,7 +37,7 @@ table:hover, tr:hover, tc:hover {
 
 .label {
   background:#2e2e2e;
-  color:#ffcc00;
+  color:#fedc00;
 }
 
 

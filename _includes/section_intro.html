@@ -1,11 +1,19 @@
 <div id="section-intro" class="panel panel-primary">
 	<div class="panel-heading">
-		<h2 class="panel-title"><i class="fa fa-exclamation-triangle fa-rotate-180" aria-hidden="true"></i> Introduction</h2>
+		<div class="wrapper">
+			<div class="item-left">
+				<h2 class="panel-title"><i class="fa fa-exclamation-triangle fa-rotate-180" aria-hidden="true"></i> Introduction</h2>
+			</div>
+			<div class="item-right" aria-hidden="true">
+				<a  class="improve" href="#">
+        		<i class="fa fa-pencil"></i>  Improve this page </a>
+			</div>
+		</div>
 	</div>
 	<div class="panel-body">
-		<div style="display:flex; justify-content: space-around; flex-wrap: wrap">			
-			<div style = "flex: 1 auto; align-self:center"><img src="img/igor.png" style="width:240px; height:320px" alt="a photo of mine"></div> 
-			<div style = "flex: 1 auto; align-self:center">{{site.data.intro | markdownify}}</div>							
+		<div style="display:flex; justify-content: space-around">			
+			<div style = "flex: 1 auto; width:30%; text-align:center"><img src="img/igor.png" alt="a photo of mine"></div> 
+			<div style = "flex: 1 auto; width:70%; text-align:center"><span>{{site.data.intro | markdownify}}</span></div>							
 		</div>
 	</div>
 </div>
