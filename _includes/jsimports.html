@@ -2,7 +2,7 @@
 <script type="text/javascript" async="" src="./js/jquery.githubRepoWidget.custom.js"></script>
 <script type="text/javascript" async="" src="./js/getLastCommitDate.js"></script>
 <script type="text/javascript" async="" src="./js/jquery.emailMe.js"></script>
-<!--script type="text/javascript" src="./js/switchery.min.js"></script-->
+<script type="text/javascript" src="./js/switchery.min.js"></script>
 
 {% if site.blogfeed %}
 	<script  type="text/javascript">
@@ -21,3 +21,10 @@
 	})();
 	</script>
 {% endif %}
+
+<script>
+	var switchery = new Switchery(document.querySelector('#pswitch'), { size: 'small' /*, secondaryColor: '#ff0000' */});
+</script>
+<script>
+	$("#pswitch").change( function () {$(".pdesc").toggle();});
+</script>

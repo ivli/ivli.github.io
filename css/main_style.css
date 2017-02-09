@@ -1,21 +1,61 @@
-.wrapper{    
-    display: flex;
-    width: 100%;
+/*
+ * core HTML elements
+ */
+head {
+  background: #333333;
+  color:#8e8e8e; 
 }
 
-.item-left {    
-    flex: 1 auto;
-    text-align: left;  
+body {
+  background: #333333;  
+  color:#8e8e8e; 
 }
 
-.item-right{    
-    flex: 1 auto;
-    text-align: right;   
+p, span, table {
+  color:#8e8e8e;  
 }
 
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium';
+}
+
+table:hover, tr:hover, tc:hover {	
+  background: #444444;
+}
+
+/*
+ * bootstrap overrides
+ */
+.panel-primary > .panel-heading
+{
+  background:#2e2e2e;   
+}
+
+.panel-primary > .panel-body {  
+  background:#444444;    
+}
+
+.navbar, .panel, .panel-primary > .panel-heading {
+    border-color:#555555;  
+}
+
+.panel-title {
+  color: rgb(248, 150, 16);
+}
+
+.label {
+  background:#2e2e2e;
+  color: rgb(248, 150, 16);
+}
+
+/*
+ * custom classes
+ */
 .improve {
   color:#1f1f1f; 
   font-size:small;
+  
 }
 
 .improve:hover {
