@@ -7,7 +7,7 @@
 	for(var i=0; i<ndx.length; ++i) 
 		outs[ndx[i]] = ins[i]; 
 
-	$('#email-me').html('<a href=\"mailto:' 
+	$('.email-me').html('<a href=\"mailto:' 
 		+ outs.join('')
 		+ '"\"\\> Email Me </a>'
 	);
