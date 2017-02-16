@@ -7,11 +7,9 @@
 				<h2 class="panel-title"><i class="fa fa-briefcase" aria-hidden="true"></i>  Work Experience</h2>
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs" style="text-align: right;" aria-hidden="true">							
-				<input id="pswitch" type="checkbox" class="js-switch" checked><span style="font-size: small; font-style: italic"> - show/hide projects</span>				
+				<input id="pswitch" type="checkbox" class="js-switch" checked><span class="improve"> - show/hide projects</span>				
 				<script>
-					var switchery = new Switchery(document.querySelector('#pswitch'), { size: 'small' /*, secondaryColor: '#ff0000' */});
-				</script>
-				<script>
+					new Switchery(document.querySelector('#pswitch'), {size: 'small', color: '#333333', secondaryColor: '#555555', jackColor:'#f89610', jackSecondaryColor:'#f89610'});				
 					$("#pswitch").change( function () {$(".pdesc").toggle();});
 				</script>	
 			</div>
