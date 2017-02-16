@@ -52,20 +52,16 @@
 							<td class="hidden-sm hidden-xs">{{company.description}}</td>
 						</tr>
 						<tr class="pdesc"> 
-							<td colspan="5">
-								<table class="table-condensed" style="width:100%">
-									<col style="width:25%">
-									<col class="hidden-sm hidden-xs" style="width:70%">
-									{% assign projects = site.data.projects | where_exp: "item", "item.employer == role.employer" %}
-									{% for project in projects %}
-										{% if project.role == nil or project.role == role.title %}
-										<tr>
-											<td><ul><li>{{project.name}}</ul></td>
-											<td class="hidden-sm hidden-xs">{{project.description}}</td>
-										</tr>
-										{% endif %}
-									{% endfor %}
-								</table>
+							<td colspan="100%">								
+								{% assign projects = site.data.projects | where_exp: "item", "item.employer == role.employer" %}
+								{% for project in projects %}
+									{% if project.role == nil or project.role == role.title %}										
+										<div class="row">
+										<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><ul><li>{{project.name}}</li></ul></div>
+										<div class="col-lg-9 col-md-8 col-sm-6 hidden-xs">{{project.description}}</div>
+										</div>										
+									{% endif %}
+								{% endfor %}
 							</td>
 						</tr>
 					{% endfor %}
