@@ -1,28 +1,27 @@
 - name: Nuclear Medicine
-  description: run a group of projects aimed to develop nuclear medicine apparatus - SPECT (single photon emission tomograph). 
-               Entire project lifecycle from inception till NPI, servicing and providing customer trainings for both HW and SW.
+  description: SPECT (single photon emission tomograph) Entire project lifecycle from inception phase till production, installations and customer support. Performing as project manager, business analytic, servicing and providing customer trainings for both HW and SW.
   employer: JSC "NIPK "Electron"
-  role: Project Manager                       
-- name: Serial Number recognition
-  description: Design and implementation of a set of algorithms of banknote serial number recognition 
+  role: Technical Project Manager                       
+- name: Image Recognition
+  description: Design and reference implementation of a set of image recognition algorithms to recognise banknote serial numbers. Several concepts evaluated against tought requirements temporal and statistical to elect one. 
   employer: Giesecke & Devrient GmbH
-- name: UV lamp substitution with LED:proof of concept  
-  description: Endurance test for Hi power UV-LED including test procedure definition, design and build test stand, test execution for various LED types and finally held presentation    
+- name: UV lamp substitution with LED: proof of concept  
+  description: Endurance test for Hi power UV-LED including test procedure definition, design and build test stand, test execution for various LED types and finally results presented to company technical board.  
   employer: Giesecke & Devrient GmbH
   role: Head of Sensor Development department
 - name: Method and Apparatus to measure spatial conductivity of moving objects
   description: Invent principle and construct aproof of concept stand of s measurement of spatial conductivity of moving objects in RF field
   employer: Giesecke & Devrient GmbH
   role: Head of Sensor Development department
-- name: COMINT system 
+- name: COMINT system
   employer: STC Ltd
-  description: classification algorithm of unknown source RF signals.     
+  description: Design and implementation of classification algorithm of RF signals of unknown origin.     
   role: Senior Software Engineer
 - name: 3G smartphone based on Qualcomm MSM platform and BREW
-  description: Lead software project including development of the custom BSP and addjusting UI LAF to corporate style  
+  description: Lead software project including BSP and custom UI.  
   employer: Elcoteq Design Center Oyj
   role: Team Technical Leader
-- name: Mid-tier mobile phone based on Freescale and inhouse UI toolkit
+- name: Mid-tier mobile phone based on Freescale iMX platform
   description: Lead 3d party integration team, responsible for integration communications stack (IrDA, OBEX etc), Messaging (SMS/EMS/MMS) and a number of other solutions into Freescale MX platform and our UI toolkit        
   employer: Elcoteq Design Center Oyj
   role: Team Technical Leader
