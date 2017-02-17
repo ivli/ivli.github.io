@@ -1,11 +1,11 @@
-- name: Nuclear Medicine
+T- name: Nuclear Medicine
   description: SPECT (single photon emission tomograph) Entire project lifecycle from inception phase till production, installations and customer support. Performing as project manager, business analytic, servicing and providing customer trainings for both HW and SW.
   employer: JSC "NIPK "Electron"
   role: Technical Project Manager                       
 - name: Image Recognition
   description: Design and reference implementation of a set of image recognition algorithms to recognise banknote serial numbers. Several concepts evaluated against tought requirements temporal and statistical to elect one. 
   employer: Giesecke & Devrient GmbH
-- name: UV lamp substitution with LED: proof of concept  
+- name: UV lamp substitution with LED - proof of concept  
   description: Endurance test for Hi power UV-LED including test procedure definition, design and build test stand, test execution for various LED types and finally results presented to company technical board.  
   employer: Giesecke & Devrient GmbH
   role: Head of Sensor Development department
