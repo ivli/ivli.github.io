@@ -2,14 +2,12 @@
   start: 2011
   end: Ongoing
   employer: JSC "NIPK "Electron"
-  description: run a set of projects aimed to develop nuclear medicine apparatus - SPECT (single photon emission tomograph). 
-               Entire project lifecycle from inception till NPI, servicing and providing customer trainings for both HW and SW.                         
+  description: run a set of projects to develop nuclear medicine apparatus - SPECT (single photon emission tomograph). Entire project lifecycle from inception till NPI, servicing and providing customer trainings for both HW and SW.                         
 - title: Head of Sensor Development department 
   start: 2009
   end: 2011
   employer: Giesecke & Devrient GmbH
-  description: Lead a heterogenous team of physicist, electronic and software engineers (several have PhD grade) really hardcore of herding the cats :-) 
-               Under my direct supervision a number of project has been completed. 
+  description: Lead a heterogenous team of physicist, electronic and software engineers. Both line and project management. 
 - title: Senior Software Engineer
   start: 2008
   end: 2009
@@ -34,4 +32,4 @@
   start: 1999
   end: 2002
   employer: Raster Ltd
-  description: CAMAC based computer aided data acquisition system for high-voltage test laboratory 
+  description: CAMAC based computer aided data acquisition system for high-voltage test laboratory
