@@ -7,7 +7,7 @@ markdown: kramdown
 ##theme: minima
 # 
 gems:
- - jekyll-seo-tag
+ ## - jekyll-seo-tag
  ##- jekyll-press
 exclude:
  - Gemfile
@@ -32,7 +32,7 @@ github:
  - ivli/ivli.github.io
 
 hobbies:
- - skiing both alpine an xc, biking, skating (asphalt), reading and I am an amateur guitar player
+ - skiing both alpine an XC, biking, skating (asphalt), reading, and I am an amateur guitar player
 
 buildstatus: >
   [![Build Status](https://app.snap-ci.com/ivli/ivli.github.io/branch/master/build_image)](https://app.snap-ci.com/ivli/ivli.github.io/branch/master)
