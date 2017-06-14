@@ -1,0 +1,14 @@
+ - id: section-intro   
+   name: Introduction
+ - id: section-education
+   name: Education 
+ - id: section-workexperience
+   name: Experience
+ - id: section-trainings
+   name: Trainings
+ - id: section-skills
+   name: Skills
+ - id: section-additionalinfo
+   name: Additional
+ - id: section-github
+   name: GitHub
