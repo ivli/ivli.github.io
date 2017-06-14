@@ -49,8 +49,9 @@
 	</script> 
 	{% seo %}
 	-->
+	<title>{{site.title}}</title>
+	
 	{% if site.google_analytics and jekyll.environment == 'production' %}
 	{% include analytics.html %}
-	{% endif %}
-	<H1 class="title">{{site.title}}</H1>
+	{% endif %}	
 </head>
