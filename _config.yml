@@ -35,6 +35,7 @@ hobbies:
  - skiing both alpine an XC, biking, skating (asphalt), reading, and I am an amateur guitar player
 
 buildstatus: >
-  [![Build Status](https://app.snap-ci.com/ivli/ivli.github.io/branch/master/build_image)](https://app.snap-ci.com/ivli/ivli.github.io/branch/master)
+  [![Build Status](https://travis-ci.org/ivli/ivli.github.io.svg?branch=master)](https://travis-ci.org/ivli/ivli.github.io)
+###  [![Build Status](https://app.snap-ci.com/ivli/ivli.github.io/branch/master/build_image)](https://app.snap-ci.com/ivli/ivli.github.io/branch/master)
 
 extras: ## https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk
