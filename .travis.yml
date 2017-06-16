@@ -19,3 +19,11 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 sudo: false # route your build to the container-based infrastructure for a faster build
+
+deploy:
+  provider: s3
+  access_key_id: AKIAIWJMRDH5OTZJ3KOA
+  secret_access_key: 1QSnotpvJs1fJZFNzIFA8Wyw1PFiXPk4l8K00jMf
+  bucket: ilikhachev.com
+  skip_cleanup: true
+  local_dir: _site
