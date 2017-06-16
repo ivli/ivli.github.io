@@ -22,8 +22,8 @@ sudo: false # route your build to the container-based infrastructure for a faste
 
 deploy:
   provider: s3
-  access_key_id: AKIAIWJMRDH5OTZJ3KOA
-  secret_access_key: 1QSnotpvJs1fJZFNzIFA8Wyw1PFiXPk4l8K00jMf
+  access_key_id: AKIAJY754CTTCTX6M7RA
+  secret_access_key: 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 
   bucket: ilikhachev.com
   skip_cleanup: true
   local_dir: ./_site
