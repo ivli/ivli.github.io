@@ -26,4 +26,4 @@ deploy:
   secret_access_key: 1QSnotpvJs1fJZFNzIFA8Wyw1PFiXPk4l8K00jMf
   bucket: ilikhachev.com
   skip_cleanup: true
-  local_dir: _site
+  local_dir: ./_site
