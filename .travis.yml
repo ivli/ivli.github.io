@@ -1,31 +1,24 @@
 language: ruby
 rvm:
 - 2.3.3
-
 before_script:
- - chmod +x ./.script/cibuild # or do this locally and commit
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-script: ./.script/cibuild
-
-# branch whitelist, only for GitHub Pages
+- chmod +x ./.script/cibuild
+script: "./.script/cibuild"
 branches:
   only:
-  - master     # test the gh-pages branch
-
+  - master
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
-sudo: false # route your build to the container-based infrastructure for a faster build
+sudo: false
 
 deploy:
   provider: s3
   access_key_id: AKIAJYU4GNJA7ZDKIU6A
-  secret_access_key: TyIyj0KWPfCbvkc0od1cHsU9Ij4ct0psAfeSIlmB 
+  secret_access_key:
+    secure: eIqSgPjrJzMulFjqaBwqfit50pXRejv6KjYFFzg3dix2ZjMmFLAVUbrjg7FJJ/UJiyFZzmrKCkW5xew0HWofRv2C9WCzwulCzSj3G0smuUa6748FR00vyNwqSmxZO9JAgVUwR8dTws0826gxodSXFyIgz4oqB3q9KTaO8gPevfEmM6HAZsNaCJE56tkvQnWyaiB33hhYchlSDLDf+tEj/1Yzd8JK0cBmssyuVDHqcD1m9cERIFgFSZTg3d6LsruhPLAWfFBtGKg82lAggxYIvH2oMcL1Xs7yAZNw6Aq4TSExhhMcMRnE7/ezngE3RWSkwOxzf7Ftou1NRkZIwk99SU/fySWZHzaxJVCBBDetekyM5t2esNOiIIGqM7yPK8ugdDWquTbqPbWiOGqaLuCKsZcWrDCWf+kwnTpX008+3ZSB1FQG6VL/RiBdSQUSorA29Vtl06NVwvqNqw/HUyOvm+DHcl5h1bScNehIttSk2ZzsXNqmY5b+NZS6rsHqUOczt8CZ1EG8WGYa/LZ7g6KhzyoYml6e/sXLG4vmrEtKpQ5OjELLHt2tdk7wAVgkUNWDHTf4CwkikHLgX5m2bHEcMJRivZGZfkRzIDcjaAePgo+MhogHUPkniBpe4T1lN7zY6QUUUCLMrdXL1IGWMm2FrIgS9Pqaf8MnThVcjl25xbI=
   bucket: ilikhachev.com
-###.s3-website-us-west-2.amazonaws.com
   skip_cleanup: true
-  local_dir: ./_site
+  local_dir: "./_site"
   region: us-west-2
