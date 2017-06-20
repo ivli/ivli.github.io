@@ -2,7 +2,7 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproofer ./_site  --href-ignore www.linkedin.com, #
+bundle exec htmlproofer --http-status-ignore "999,401,404" --href-ignore "www.linkedin.com, #" ./_site
 
 travis encrypt --add deploy.secret_access_key
 
