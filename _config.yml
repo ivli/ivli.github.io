@@ -14,7 +14,7 @@ exclude:
  - Gemfile.lock
 
 # Google services
-google_analytics: UA-72006658-2 
+google_analytics: UA-72006658-3 
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
