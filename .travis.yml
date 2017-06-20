@@ -24,6 +24,6 @@ deploy:
   provider: s3
   access_key_id: AKIAJYU4GNJA7ZDKIU6A
   secret_access_key: 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 
-  bucket: http://ilikhachev.com.s3-website-us-west-2.amazonaws.com
+  bucket: ilikhachev.com.s3-website-us-west-2.amazonaws.com
   skip_cleanup: true
   local_dir: ./_site
