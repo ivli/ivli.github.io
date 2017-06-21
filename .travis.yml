@@ -15,8 +15,6 @@ env:
   
 sudo: false
 
-install: true
-
 deploy:
   provider: s3
   access_key_id: AKIAJYU4GNJA7ZDKIU6A
