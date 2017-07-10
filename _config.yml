@@ -7,8 +7,9 @@ markdown: kramdown
 ##theme: minima
 # 
 gems:
+ ## - html-proofer
  ## - jekyll-seo-tag
- ##- jekyll-press
+ ## - jekyll-press
 exclude:
  - Gemfile
  - Gemfile.lock
