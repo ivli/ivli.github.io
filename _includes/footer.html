@@ -31,18 +31,17 @@
 	<div class="container">
 		<div class="row" style="text-align:center">
 			{% if jekyll.environment == "production" %}
-			{% 	assign hosting ="GitHub" %}
-			{% 	assign href ="https://GitHub.com" %}
+			{% 	assign hosting = "GitHub" %}
+			{% 	assign href = "https://GitHub.com" %}
 			{% elsif jekyll.environment == "production2" %}
-			{% 	assign hosting ="Amazon S3" %}
-			{% 	assign href ="https://aws.amazon.com/s3/" %}
+			{% 	assign hosting = "Amazon S3" %}
+			{% 	assign href = "https://aws.amazon.com/s3/" %}
 			{% else %}
-			{% 	assign hosting ="LocalHost" %}
-			{% 	assign href ="localhost:4000" %}			
+			{% 	assign hosting = "LocalHost" %}
+			{% 	assign href = "localhost:4000" %}			
 			{% endif %}
-
 			<span style="font-family:Pacifico; font-size:xx-large; color:yellow">Proudly hosted by </span>
-			<a href={{href}} style="font-family:Arial; font-size:xx-large; color:white">  {{hosting}} </a>
+			<a href={{href}} style="font-family:Arial; font-size:xx-large; color:white">{{hosting}}</a>
 
 		</div>		
 	</div>
