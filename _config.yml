@@ -30,11 +30,16 @@ primarylinks:
 #List of interesting Github repo/projects to include - optional
 github:
  - ivli/roim 
- - ivli/Isolevels
+ - ivli/isolevels
  - ivli/ivli.github.io
 
 hobbies:
- - skiing both alpine an XC, biking, skating (asphalt), reading, and I am an amateur guitar player
+ - skiing both alpine and cross country 
+ - biking 
+ - skating (asphalt) 
+ - reading
+ - jazz 
+ - guitar 
 
 buildstatus: >
   [![Build Status](https://travis-ci.org/ivli/ivli.github.io.svg?branch=master)](https://travis-ci.org/ivli/ivli.github.io)
