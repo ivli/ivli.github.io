@@ -7,7 +7,7 @@ markdown: kramdown
 ##theme: minima
 # 
 gems:
-  - html-proofer
+ ## - html-proofer
  ## - jekyll-seo-tag
  ## - jekyll-press
 exclude:
