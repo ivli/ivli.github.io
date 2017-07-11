@@ -4,5 +4,6 @@ _site
 .lock
 .vscode
 .cmd
+Gemfile.lock
 
 
