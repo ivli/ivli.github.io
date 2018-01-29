@@ -34,12 +34,11 @@ github:
  - ivli/ivli.github.io
 
 hobbies:
- - skiing both alpine and cross country 
+ - reading
+ - skiing both alpine and x-country 
  - biking 
  - skating (asphalt) 
- - reading
- - jazz 
- - guitar 
+ - I am an amateur jazz guitar player 
 
 buildstatus: >
   [![Build Status](https://travis-ci.org/ivli/ivli.github.io.svg?branch=master)](https://travis-ci.org/ivli/ivli.github.io)
