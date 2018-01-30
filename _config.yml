@@ -20,6 +20,8 @@ google_analytics2: UA-72006658-3
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
+ - title: Not_A_Blog
+   url: category/blog.html
  - title: LinkedIn
    url: https://www.linkedin.com/in/igorlikhachev
  - title: GitHub
@@ -39,6 +41,9 @@ hobbies:
  - biking and skating (asphalt) 
  - music: classical, jazz 
  - and, I am an amateur jazz guitar player 
+
+blogfeed: category/blog.html
+future: true
 
 buildstatus: >
   [![Build Status](https://travis-ci.org/ivli/ivli.github.io.svg?branch=master)](https://travis-ci.org/ivli/ivli.github.io)
