@@ -21,7 +21,7 @@ google_analytics2: UA-72006658-3
 #Links that will appear in the navbar
 primarylinks:
  - title: Not_A_Blog
-   url: ./category/blog.html
+   url: category/blog.html
  - title: LinkedIn
    url: https://www.linkedin.com/in/igorlikhachev
  - title: GitHub
