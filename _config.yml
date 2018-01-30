@@ -47,5 +47,5 @@ future: true
 buildstatus: >
   [![Build Status](https://travis-ci.org/ivli/ivli.github.io.svg?branch=master)](https://travis-ci.org/ivli/ivli.github.io)
 
-extras: ./category/blog.html
+extras: /category/blog.html
 ##https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk
