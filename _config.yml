@@ -42,7 +42,7 @@ hobbies:
  - music: classical, jazz 
  - and, I am an amateur jazz guitar player 
 
-blogfeed: category/blog.html
+##blogfeed: category/blog.html
 future: true
 
 buildstatus: >

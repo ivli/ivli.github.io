@@ -1,4 +1,4 @@
-{% if site.blogfeed %}
+
 	<div id="blogBubble" class="rounded_panel txt_lightgrey">
 		<div class="top-rounded-panel grey-bg">
 			<h2>Recent not a blog posts</h2>
@@ -7,7 +7,7 @@
 			<ul>
 				{% for post in site.posts %}
 				  <li>
-					<a href="{{ post.url }}">{{ post.title }}</a>
+					<a href="{{ post.url | absolute_url}}">{{ post.title }}</a>
 				  </li>
 				{% endfor %}
 			  </ul>
@@ -15,5 +15,5 @@
 			<br>
 		</div>
 	</div>
-{% endif %}
+
 
