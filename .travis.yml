@@ -22,6 +22,3 @@ deploy:
   on: &2
     repo: ivli/ivli.github.io
   bucket: ilikhachev.com
-before_deploy:
-- mkdir -p dpl_cd_upload
-- mv ./site dpl_cd_upload/''
