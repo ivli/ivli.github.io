@@ -12,12 +12,25 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
   - JEKYLL_ENV=production2
 sudo: false
-
 deploy:
-  provider: s3
-  access_key_id: AKIAIKF2HFKMVEXQVL6A
-  secret_access_key: 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 
-  bucket: ilikhachev.com
+- provider: s3
+  access_key_id: AKIAIZBEH5LYLI6G2J2Q
+  secret_access_key: &1
+    secure: msx3NZCjuwFeuxqc3hIJJBG1mzm7EI7Z+L/At+Mv+TRntcYaJ7quz9NXrbQyWP3EmkaQTBd8oPVk05eA/lMd6mNdWhKymcjEPpT6IEzHSN6g4/yMzMA4dyjQWMEf+vP0At7kPM+/YFBjFqlvIU8HqLycOxEGGYNXKYa6IM40QPlFkKLMLfBF9CUHIWLLS2XxpV3dA08ZBQxMhWtooqVoQ27AU4/2/sxRpyzL51Jzp3RYVml9s/zkLEbDN1iSNHBq2wy3I7FshNKvihzvNr/6CmM7xTCfO/wprBvjMHkGonCVGUoVQZPP0eRairdwh5KYb6m+930sjL2YfFBXMlBGSdZePBBUDHF3t5d6GAwE1zK+ASphNIrIKnVlYDIki7FF5XEhSZgCmLhxfglGF/TgHTD33fsNE9rm9NhaNLMtuCWlM5aC7qe74/UTm76G6enilg9ctufpt13tZeAgtvk3VBj3fY7stgHp4uGlFzC/su3PDA7k/iDqWcBa65XMYBJUd80QrvxkeBGRM9D5W7bqy3zp2mLnRe58QzvHHQBT/LxXQFG+w4ylC8s30Q/Jq0EaBe22e4HngTeAk0b3sj/uZZKSPEdhFjYUaMaSeNFGVIe4Zv3+ggiiR2/ny8yYceW6hFohARFj4buvFd6h4vSwm57ynZ+nLJQ3GGi0GQ+j8tA=
+  local_dir: dpl_cd_upload
   skip_cleanup: true
-  local_dir: "./_site"
-  region: us-west-2
+  on: &2
+    repo: ivli/ivli.github.io
+  bucket: ilikhachev.com
+- provider: codedeploy
+  access_key_id: AKIAIZBEH5LYLI6G2J2Q
+  secret_access_key: *1
+  bucket: ilikhachev.com
+  key: ''
+  bundle_type: ''
+  application: ivli.github.io
+  deployment_group: ''
+  on: *2
+before_deploy:
+- mkdir -p dpl_cd_upload
+- mv ./site dpl_cd_upload/''
