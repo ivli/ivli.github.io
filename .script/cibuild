@@ -2,5 +2,5 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproofer --http-status-ignore "999,401,404" --url-ignore "/www.linkedin.com/, /aws.amazon.com/, /jekyllrb.com/, #" ./_site
+bundle exec htmlproofer --http-status-ignore "999,401,404" --url-ignore "/www.linkedin.com/, /aws.amazon.com/, /jekyllrb.com/, /www.jekyllrb.com/, #" ./_site
 
