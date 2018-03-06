@@ -13,12 +13,14 @@ env:
   - JEKYLL_ENV=production2
 sudo: false
 deploy:
-- provider: s3
+  provider: codedeploy
   access_key_id: AKIAIZBEH5LYLI6G2J2Q
-  secret_access_key: &1
-    secure: msx3NZCjuwFeuxqc3hIJJBG1mzm7EI7Z+L/At+Mv+TRntcYaJ7quz9NXrbQyWP3EmkaQTBd8oPVk05eA/lMd6mNdWhKymcjEPpT6IEzHSN6g4/yMzMA4dyjQWMEf+vP0At7kPM+/YFBjFqlvIU8HqLycOxEGGYNXKYa6IM40QPlFkKLMLfBF9CUHIWLLS2XxpV3dA08ZBQxMhWtooqVoQ27AU4/2/sxRpyzL51Jzp3RYVml9s/zkLEbDN1iSNHBq2wy3I7FshNKvihzvNr/6CmM7xTCfO/wprBvjMHkGonCVGUoVQZPP0eRairdwh5KYb6m+930sjL2YfFBXMlBGSdZePBBUDHF3t5d6GAwE1zK+ASphNIrIKnVlYDIki7FF5XEhSZgCmLhxfglGF/TgHTD33fsNE9rm9NhaNLMtuCWlM5aC7qe74/UTm76G6enilg9ctufpt13tZeAgtvk3VBj3fY7stgHp4uGlFzC/su3PDA7k/iDqWcBa65XMYBJUd80QrvxkeBGRM9D5W7bqy3zp2mLnRe58QzvHHQBT/LxXQFG+w4ylC8s30Q/Jq0EaBe22e4HngTeAk0b3sj/uZZKSPEdhFjYUaMaSeNFGVIe4Zv3+ggiiR2/ny8yYceW6hFohARFj4buvFd6h4vSwm57ynZ+nLJQ3GGi0GQ+j8tA=
-  local_dir: dpl_cd_upload
-  skip_cleanup: true
-  on: &2
-    repo: ivli/ivli.github.io
+  secret_access_key:
+    secure: Cn97Yg1snswTRTrbRvA1aFHiPlkhNXv/ZqSIOrrKkQcKS6SgHJDEdbf/vxToKQlefrSVdYeyVXivggofudl/QpQKvAR22h/uHFOLW2b6VJYegjqklo3qoaZ8c6OcgOxGCp1oJqgNXBxWccRVKokBfVh8DA+4MrZupO7oiAOC4pWkUZX6U7cdEZQ8MAX9+HLsNvsjW8N0kKZByyKbrHyj9fhREyJhCZna9R6n/C0uaxD+91Oewifrm2Kmc91fhXckP3geG2rNHcnxO+Tfk8BOuGi6XgIJQux7d5XcbVOA8akylfK4/I+AhxPmwNo33J0wMOv7E3K8JNToKutQS4CW8+yGO1EhlC/9N4VyubULgqLRdSoftzrOxS8nzdGY3nt7z9EWjXYxmW53puL7sKWqsi0aNy62cTjfW01XTFOfpqqhtmdyGTkrDiED0wc+oIUBytMVLQ/aVc+LG9FGVzAjh+AmKa48x5X8YCiWR12BkxWgWQV1B4Ow0GygezrnCJqnzylACSO/vOU5XJwMYQ2xQrbcLIR5EJgg2rdhktjWgN0meM7GiwXJFjaMltIWRKs1HOEjSxiietSb3xLNId9ElFlQeMAqy9fUDmFcTLJlO3Tz9RY4oa3hPGe/Y9tMmDph+DVHTP1D75kzulfjf6uVd4uZAMgjZWg+fboq7s5eBlo=
   bucket: ilikhachev.com
+  key: "./site"
+  bundle_type: zip
+  application: ivli.github.io
+  deployment_group: ''
+  on:
+    repo: ivli/ivli.github.io
