@@ -22,15 +22,6 @@ deploy:
   on: &2
     repo: ivli/ivli.github.io
   bucket: ilikhachev.com
-- provider: codedeploy
-  access_key_id: AKIAIZBEH5LYLI6G2J2Q
-  secret_access_key: *1
-  bucket: ilikhachev.com
-  key: ''
-  bundle_type: ''
-  application: ivli.github.io
-  deployment_group: ''
-  on: *2
 before_deploy:
 - mkdir -p dpl_cd_upload
 - mv ./site dpl_cd_upload/''
