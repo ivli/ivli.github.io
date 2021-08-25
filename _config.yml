@@ -26,7 +26,7 @@ primarylinks:
  - title: GitHub
    url: https://github.com/ivli
    ## - title: Runkeeper
-   ##  url: https://runkeeper.com/user/theIgorL  
+   ##   url: https://runkeeper.com/user/theIgorL  
  - title: FB
    url: https://www.facebook.com/igor.likhachev.5
 
@@ -47,7 +47,7 @@ hobbies:
 future: true
 
 buildstatus: >
-  [![Build Status](https://travis-ci.org/ivli/ivli.github.io.svg?branch=master)](https://travis-ci.org/ivli/ivli.github.io)
+  [![Build Status](https://travis-ci.com/ivli/ivli.github.io.svg?branch=master)](https://travis-ci.com/ivli/ivli.github.io)
 
 extras: /category/blog.html
 ##https://drive.google.com/file/d/0B2iEehEHhN35TG5GNld6UEV5VXM/view?usp=drivesdk
